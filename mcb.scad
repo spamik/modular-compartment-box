@@ -5,9 +5,9 @@ box_y_compartments = 2;
 box_height = 25;
 
 // what generate:
-//box();
+box();
 //translate([70, 0, 0]) lid();
-translate([-70, 150, 0]) divider(1);
+//translate([-70, 150, 0]) divider(2);
 
 // internal parameters:
 out_wall_size = 2.5;
@@ -16,7 +16,7 @@ divider_size_tolerance = 1;
 compartment_size = 20;
 
 lid_angle = 65;
-lid_tolerance = 0.75;
+lid_tolerance = 0.4;
 
 // internal computes
 total_width = box_x_compartments * compartment_size + 2* out_wall_size;
